@@ -16,7 +16,7 @@ export const BooksProvider = ({ children }) => {
   const fetchBooks = async (searchTerm) => {
     try {
       const response = await axios.get(
-        `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}=${key}`
+        `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&key=${key}`
       );
       setBooks(response.data.items);
     } catch (error) {
