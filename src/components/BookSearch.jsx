@@ -21,7 +21,7 @@ const BookSearch = () => {
         />
         <button
           type="submit"
-          className="bg-yellow-700 text-white rounded-r-md px-4 py-2 ml-2 hover:bg-yellow-900 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-50"
+          className="bg-yellow-600 text-white rounded-r-md px-4 py-2 ml-2 hover:bg-yellow-800 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-50"
         >
           Search
         </button>

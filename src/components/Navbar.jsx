@@ -8,7 +8,7 @@ import {Link} from "react-router-dom"
 
 const navigation = [
   { name: 'Dashboard', to: '/', current: true },
-  { name: 'BookToRead', to: '/toread', current: false },
+  { name: 'BookToRead', to: '/toread', current: true },
   { name: 'Projects', to: '#', current: false },
   { name: 'Calendar', to: '#', current: false },
 ]

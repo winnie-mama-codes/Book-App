@@ -1,6 +1,6 @@
 import "./App.css";
 
-import Navbar from "./komponents/Navbar";
+import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import { BooksProvider } from "./BooksContext";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
